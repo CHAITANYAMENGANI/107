@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ananya &amp; Rohan | Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&family=Noto+Serif+Devanagari:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg" aria-hidden="true"></div>
+
+<!-- COVER -->
+<div id="cover">
+  <div class="cover-inner">
+    <div class="caps">Wedding Invitation</div>
+    <div class="names script">Ananya &amp; Rohan</div>
+    <p class="dear">You are warmly invited</p>
+    <button id="openBtn" type="button">Tap to open</button>
+  </div>
+</div>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="caps reveal">|| Om Shree Ganeshaya Namah ||</div>
+    <div class="hosts reveal">Smt. Meera &amp; Shri Rajesh Sharma</div>
+    <p class="request reveal">request the honour of your gracious presence on the auspicious occasion of the wedding celebration of</p>
+    <div class="name script reveal">Ananya</div>
+    <div class="weds script reveal">and</div>
+    <div class="name script reveal">Rohan</div>
+    <div class="when caps reveal">14 February 2027 · Hyderabad</div>
+  </section>
+
+  <!-- SHLOKA -->
+  <section class="shloka reveal">
+    <div class="dev">वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br>निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥</div>
+    <hr>
+    <div class="trans">Vakratunda Mahakaya Suryakoti Samaprabha<br>Nirvighnam Kuru Me Deva Sarva Kaaryeshu Sarvada</div>
+  </section>
+
+  <!-- SAVE THE DATE -->
+  <section class="save">
+    <h2 class="reveal">Save the Date</h2>
+    <div class="scratch reveal">
+      <div class="under">
+        <b class="script">14 February 2027</b>
+        <span class="caps">Sunday · Hyderabad</span>
+      </div>
+      <canvas id="scratch" aria-label="Scratch to reveal the wedding date"></canvas>
+    </div>
+    <p class="hint reveal" id="hint">Rub the red card with your finger</p>
+    <div class="countdown reveal" aria-label="Countdown to the muhurtham">
+      <div><b id="cd-d">0</b><span>Days</span></div>
+      <div><b id="cd-h">0</b><span>Hours</span></div>
+      <div><b id="cd-m">0</b><span>Mins</span></div>
+      <div><b id="cd-s">0</b><span>Secs</span></div>
+    </div>
+  </section>
+
+  <!-- CELEBRATIONS -->
+  <section class="events">
+    <h2 class="script title reveal">The Celebrations</h2>
+    <p class="sub reveal">It is time for our family to come together, create beautiful memories, and celebrate with laughter, music and traditions.</p>
+
+    <div class="daydate script reveal">12 February</div>
+    <div class="dow caps reveal">Friday</div>
+    <article class="event reveal">
+      <h3>Haldi</h3>
+      <div class="tag">The Golden Hour Glow ☀️</div>
+      <div class="meta"><span>Time</span>4:30 PM</div>
+      <div class="meta"><span>Colour palette</span>Yellow</div>
+      <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Venue+Name+Hyderabad">📍 Venue Name</a>
+    </article>
+
+    <div class="daydate script reveal">13 February</div>
+    <div class="dow caps reveal">Saturday</div>
+    <article class="event reveal">
+      <h3>Mehendi</h3>
+      <div class="tag">Whispers of Green 🍃</div>
+      <div class="meta"><span>Time</span>11:00 AM</div>
+      <div class="meta"><span>Colour palette</span>Green</div>
+      <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Venue+Name+Hyderabad">📍 Venue Name</a>
+    </article>
+    <article class="event reveal">
+      <h3>Sangeet</h3>
+      <div class="tag">Under the Stars 🪩</div>
+      <div class="meta"><span>Time</span>7:00 PM</div>
+      <div class="meta"><span>Dress code</span>Glam &amp; Bling</div>
+      <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Venue+Name+Hyderabad">📍 Venue Name</a>
+    </article>
+
+    <div class="daydate script reveal">14 February</div>
+    <div class="dow caps reveal">Sunday</div>
+    <article class="event reveal">
+      <h3>Wedding</h3>
+      <div class="tag">Threads of Infinity ♾️</div>
+      <div class="meta"><span>Muhurtham</span>10:30 AM</div>
+      <div class="meta"><span>Reception</span>7:30 PM</div>
+      <div class="meta"><span>Dress code</span>Ethnic Elegance</div>
+      <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Venue+Name+Hyderabad">📍 Venue Name</a>
+    </article>
+  </section>
+
+  <!-- CLOSING -->
+  <section class="closing">
+    <p class="sub reveal">Your presence and blessings will make Ananya's wedding a truly memorable family celebration.</p>
+    <p class="regards reveal">Warm regards,</p>
+    <p class="sign script reveal">Meera &amp; Rajesh Sharma</p>
+    <a id="rsvp" class="btn reveal" target="_blank" rel="noopener" href="#">RSVP on WhatsApp</a>
+    <div class="foot caps reveal">ANANYA ✦ ROHAN · 14.02.2027</div>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
